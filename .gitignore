@@ -1,0 +1,14 @@
+# Data files
+DATASET/
+*.csv
+*.csv.gz
+*.parquet
+
+# Caches and environment
+__pycache__/
+.ipynb_checkpoints/
+.conda/
+
+# Ignore PDFs and Mac system files
+*.pdf
+.DS_Store
