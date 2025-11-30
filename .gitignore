@@ -1,14 +1,9 @@
-# Data files
 DATASET/
-*.csv
-*.csv.gz
-*.parquet
-
-# Caches and environment
+legacy_experiments/
 __pycache__/
-.ipynb_checkpoints/
-.conda/
-
-# Ignore PDFs and Mac system files
-*.pdf
-.DS_Store
+*.pth
+*.sqsh
+clinical_notes.csv
+advanced_cohort.csv
+cohort.csv
+advanced_results.csv
