@@ -1,4 +1,18 @@
+# 1. Ignore the Massive Raw Data (33GB)
 DATASET/
+
+# 2. Ignore the Huge Text File (4GB - Too big for GitHub)
+clinical_notes.csv
+
+# 3. Ignore the Model Weights (400MB - Too big for standard GitHub)
+*.pth
+*.sqsh
+
+# 4. Standard System Junk
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+legacy_experiments/DATASET/
 legacy_experiments/
 __pycache__/
 *.pth
